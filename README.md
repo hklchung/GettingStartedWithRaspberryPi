@@ -74,6 +74,9 @@ The easiest way to get started is to purchase a Raspberry Pi starter kit and the
 - MicroSD Card with NOOBS for all Raspberry Pi Boards <a href="https://core-electronics.com.au/32gb-microsd-card-with-noobs-for-all-raspberry-pi-boards.html"><strong>(example)</strong></a>
   - preferrably at least 16GB
   - get the ones with NOOBS pre-loaded, these allow you to directly boot up your machine without further fuss when you do it for the first time
+- Mouse and keyboard
+  - you cannot control the board if you do not have a mouse and a keyboard
+  - ones with cable connection would be preferable
 
 #### Optional
 - An acrylic case compatible with Raspberry Pi 4B+ <a href="https://core-electronics.com.au/transparent-acrylic-case-with-cooling-fan-for-raspberry-pi-b-2b-3b.html?utm_source=google_shopping&gclid=Cj0KCQjw6_vzBRCIARIsAOs54z6sotg_ru8JCn2dvZ5tL83YbP5N_2ghLr-XbPhGCqAFV2PvPNbyJqgaAgOaEALw_wcB"><strong>(example)</strong></a>
@@ -90,7 +93,22 @@ The easiest way to get started is to purchase a Raspberry Pi starter kit and the
 <!-- BOOTING IT UP -->
 
 ### Booting it up
----
+Now assuming you have purchased the aforementioned components, you can go ahead and follow the below steps to boot up your Raspberry Pi for the first time!
+1. Do not plug in your power!
+2. Plug in your mouse and keyboard into the USB2.0 ports (black)
+3. Plug in your HDMI cable to a TV or monitor, connect it to the HDMI0 port
+4. Slot in your MicroSD card with NOOBS into the MicroSD card insertion slot
+5. Ensure all the above have been connected to the board tightly and securely, then plug in the power
+6. You should be able to see rainbow gradient background on your screen followed by prompt asking for username and password
+  - you may have to wait up to 1-2 minutes to see something on the screen
+  - if you do not see anything after 3 minutes, this is likely due to poor connection of the HDMI cable
+  - there are known issues with video outputs from the Raspberry Pi, see the guide <a href="https://howtoraspberrypi.com/raspberry-pi-hdmi-not-working/"><strong>here</strong></a> for solution
+7. Enter username "pi" and password "raspberry" and go through the OS update and installation process. This may take up to 20 minutes depending on internet speed.
+8. Once the Raspberry Pi has been updated, your set up is complete
+9. It is important to note that you should always shutdown your Raspberry Pi before removing power supply as this may corrupt your MicroSD card. To shutdown, simply select shutdown from the start up menu or enter the below code in the terminal.
+```sh
+sudo shutdown now
+```
 
 <!-- USAGE -->
 
