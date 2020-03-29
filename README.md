@@ -40,8 +40,21 @@
 
 <!-- ABOUT RASPBERRY PI -->
 
-## About the Project
----
+## About Raspberry Pi
+Raspberry Pi is a small single-board computer that is commonly used for rapid prototyping, IoT smart home devices and even as a regular computer. The Raspberry Pi model 4B+ was released in 2019 and is the latest, most advanced model as of writing of this guide.
+
+Raspberry Pi model 4B+ comes with a 1.5 GHz 64-bit quad core ARM Cortex-A72 processor, on-board 802.11ac Wi-Fi, Bluetooth 5.0, full gigabit Ethernet, two USB 2.0 ports, two USB 3.0 ports, and dual-monitor support via a pair of micro HDMI (HDMI Type D) ports for up to 4K resolution . The Pi 4 is also powered via a USB-C port, enabling additional power to be provided to downstream peripherals, when used with an appropriate PSU. A labelled diagram of the described model is available below. Please note that the MicroSD card insertion slot is on the underside of the board.
+<br />
+<p align="center">
+  <a href="https://github.com/hklchung/GettingStartedWithRaspberryPi">
+    <img src="https://github.com/hklchung/GettingStartedWithRaspberryPi/blob/master/Image/raspberrypi4b.PNG?raw=true" height="400">
+    </a>
+  </p>
+</p>
+
+Raspberry Pi supports both text-based interface (console) and a graphical user interface (GUI) which makes it easy for users to navigate and control functionalities in the system. User can also choose the Operating System (OS) on the Raspberry Pi, although Raspbian is strongly recommended for new users.
+
+There are 40 GPIO pins on the Raspberry Pi model 4B+ with some doubling as multi-function pins that support UART, I2C and SPI communication protocols. You do not need to worry about the pins if you are simply using the board as a regular computer.
 
 <!-- GETTING STARTED -->
 
