@@ -59,7 +59,6 @@ There are 40 GPIO pins on the Raspberry Pi model 4B+ with some doubling as multi
 <!-- GETTING STARTED -->
 
 ## Getting Started
----
 
 <!-- PARTS -->
 
@@ -113,6 +112,15 @@ sudo shutdown now
 <!-- USAGE -->
 
 ## Usage
+You can use the Raspberry Pi as you would with any other computer. To download softwares onto your Raspberry Pi, open up Termianl from the start up menu and run the following command. (Scrot is a screen capturing application)
+```sh
+sudo apt-get install scrot
+```
+To see a list of softwares installed, run:
+```sh
+apt list --installed
+```
+
 ### Remote Access to Raspberry Pi GUI
 1. Boot up Raspberry Pi
 2. Connect the Raspberry Pi to your WiFi network
