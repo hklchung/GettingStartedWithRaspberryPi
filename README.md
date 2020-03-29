@@ -15,7 +15,7 @@
 </p>
 
 <p align="center">
-  A comprehensive guide on setting up your Raspberry Pi model 4B+.
+  A comprehensive guide on setting up your Raspberry Pi model 4B+ for beginners.
     <br />
     <a href="https://github.com/hklchung/TravelPlanner"><strong>Explore the docs »</strong></a>
     <br />
