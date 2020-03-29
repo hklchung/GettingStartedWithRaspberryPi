@@ -31,8 +31,8 @@
 
 * [About Raspberry Pi](#about-raspberry-pi)
 * [Getting Started](#getting-started)
-  * [Prerequisites](#prerequisites)
-  * [Installation](#installation)
+  * [Parts](#parts)
+  * [Booting it up](#booting-it-up)
 * [Usage](#usage)
 * [Contributing](#contributing)
 * [Contact](#contact)
@@ -48,14 +48,35 @@
 ## Getting Started
 ---
 
-<!-- PREREQUISITES -->
+<!-- PARTS -->
 
-### Prerequisites
----
+### Parts
+The easiest way to get started is to purchase a Raspberry Pi starter kit and these can be found on Amazon, eBay, or your local electronics store. However, these typically come with parts that are not needed for regular usage or that you may already have some of these parts and you do not want to purchase them again. Therefore below is a list of required components which you can indivdually source via the most channel of your own choosing. 
 
-<!-- INSTALLATION -->
+#### Essential
+- Raspberry Pi 4 Model B 2GB/4GB 
+  - 4GB is preferred as 2GB can be a bit slow if you want to control your Raspberry Pi via the GUI
+- Official Raspberry Pi 4 Power Supply
+- HDMI cable
+- MicroSD Card with NOOBS for all Raspberry Pi Boards <a href="https://core-electronics.com.au/32gb-microsd-card-with-noobs-for-all-raspberry-pi-boards.html"><strong>(example)</strong></a>
+  - preferrably at least 16GB
+  - get the ones with NOOBS pre-loaded, these allow you to directly boot up your machine without further fuss when you do it for the first time
 
-### Installation
+#### Optional
+- An acrylic case compatible with Raspberry Pi 4B+ <a href="https://core-electronics.com.au/transparent-acrylic-case-with-cooling-fan-for-raspberry-pi-b-2b-3b.html?utm_source=google_shopping&gclid=Cj0KCQjw6_vzBRCIARIsAOs54z6sotg_ru8JCn2dvZ5tL83YbP5N_2ghLr-XbPhGCqAFV2PvPNbyJqgaAgOaEALw_wcB"><strong>(example)</strong></a>
+- A cooling fan <a href="https://core-electronics.com.au/miniature-5v-cooling-fan-with-molex-picoblade-connector.html"><strong>(example)</strong></a>
+- Heat sink <a href="https://core-electronics.com.au/3pc-heatsink-kit-for-raspberry-pi-4.html"><strong>(example)</strong></a>
+
+#### For Developers
+- Female/Female jumper wires
+- Regular jumper wires
+- Resistor 10k, 1K, 330 Ohm 1/4 Watt PTH
+- Breadboard
+- Push buttons, potentiometers, photoresistors, LED 5mm (and whatever sensors/actuators you think you will need)
+
+<!-- BOOTING IT UP -->
+
+### Booting it up
 ---
 
 <!-- USAGE -->
