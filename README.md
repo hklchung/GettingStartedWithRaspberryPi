@@ -82,7 +82,34 @@ The easiest way to get started is to purchase a Raspberry Pi starter kit and the
 <!-- USAGE -->
 
 ## Usage
----
+### Remote Access to Raspberry Pi GUI
+1. Boot up Raspberry Pi
+2. Connect the Raspberry Pi to your WiFi network
+3. Open Termianl and run the below
+```sh
+sudo raspi-config
+```
+4. A window will pop up, go to Interfacing Options -> VNC -> enable VNC
+5. Download VNCViewer from <a href="https://www.realvnc.com/en/connect/download/viewer/"><strong>here</strong></a>
+6. Install VNC under standard configurations
+7. While VNC is being installed, check the network IP of your WiFi by following <a href="https://nordvpn.com/blog/find-router-ip-address/"><strong>this guide</strong></a>
+8. Once VNCViewer has installed successfully, open VNCViewer and paste your WiFi IP into the search bar
+9. You should now be able to remote access your Raspberry Pi GUI
+
+### Remote Access to Raspberry Pi via SSH (text interface)
+1. Boot up Raspberry Pi
+2. Connect the Raspberry Pi to your WiFi network
+3. Open Termianl and run the below
+```sh
+sudo raspi-config
+```
+4. A window will pop up, go to Interfacing Options -> SSH -> enable SSH
+5. Download PuTTY from <a href="https://www.putty.org/"><strong>here</strong></a>
+6. Install PuTTY under standard configurations
+7. While PuTTY is being installed, check the network IP of your WiFi by following <a href="https://nordvpn.com/blog/find-router-ip-address/"><strong>this guide</strong></a>
+8. Once PuTTY has installed successfully, open PuTTY, paste your WiFi IP into the Host Name box and click Open
+9. Enter your username (pi) and password
+10. You should now be able to remote access your Raspberry Pi via SSH
   
 <!-- CONTRIBUTING -->
 
