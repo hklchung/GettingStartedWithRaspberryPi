@@ -145,7 +145,11 @@ sudo raspi-config
 4. A window will pop up, go to Interfacing Options -> SSH -> enable SSH
 5. Download PuTTY from <a href="https://www.putty.org/"><strong>here</strong></a>
 6. Install PuTTY under standard configurations
-7. While PuTTY is being installed, check the network IP of your WiFi by following <a href="https://nordvpn.com/blog/find-router-ip-address/"><strong>this guide</strong></a>
+7. While PuTTY is being installed, check the network IP of your WiFi by following <a href="https://nordvpn.com/blog/find-router-ip-address/"><strong>this guide</strong></a> or run the command below if you have a screen and keyboard connected to your Raspberry Pi
+```sh
+ifconfig
+```
+* The number under wlan0
 8. Once PuTTY has installed successfully, open PuTTY, paste your WiFi IP into the Host Name box and click Open
 9. Enter your username (pi) and password
 10. You should now be able to remote access your Raspberry Pi via SSH
