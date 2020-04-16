@@ -63,7 +63,7 @@ There are 40 GPIO pins on the Raspberry Pi model 4B+ with some doubling as multi
 <!-- PARTS -->
 
 ### Parts
-The easiest way to get started is to purchase a Raspberry Pi starter kit and these can be found on Amazon, eBay, or your local electronics store. However, these typically come with parts that are not needed for regular usage or that you may already have some of these parts and you do not want to purchase them again. Therefore below is a list of required components which you can indivdually source via the most channel of your own choosing. 
+The easiest way to get started is to purchase a Raspberry Pi starter kit and these can be found on Amazon, eBay, or your local electronics store. However, these typically come with parts that are not needed for regular usage or that you may already have some of these parts and you do not want to purchase them again. Therefore below is a list of required components which you can indivdually source via the most convenient channel of your own choosing. 
 
 #### Essential
 - Raspberry Pi 4 Model B 2GB/4GB 
