@@ -17,12 +17,12 @@
 <p align="center">
   A comprehensive guide on setting up your Raspberry Pi model 4B+ for beginners.
     <br />
-    <a href="https://github.com/hklchung/TravelPlanner"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/hklchung/GettingStartedWithRaspberryPi"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/hklchung/TravelPlanner/issues">Report Error</a>
+    <a href="https://github.com/hklchung/GettingStartedWithRaspberryPi/issues">Report Error</a>
     ·
-    <a href="https://github.com/hklchung/TravelPlanner/issues">Request Feature</a>
+    <a href="https://github.com/hklchung/GettingStartedWithRaspberryPi/issues">Request Feature</a>
   </p>
 </p>
 
