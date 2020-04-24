@@ -87,6 +87,7 @@ The easiest way to get started is to purchase a Raspberry Pi starter kit and the
 - Regular jumper wires
 - Resistor 10k, 1K, 330 Ohm 1/4 Watt PTH
 - Breadboard
+- Extension board + colour ribbon cable <a href="https://www.ebay.com.au/itm/Sintron-40Pin-GPIO-Extension-Board-Color-Ribbon-Cable-for-Raspberry-Pi4-Model-B/151616956126?ssPageName=STRK%3AMEBIDX%3AIT&_trksid=p2060353.m2749.l2649"><strong>(example)</strong></a>
 - Push buttons, potentiometers, photoresistors, LED 5mm (and whatever sensors/actuators you think you will need)
 
 <!-- BOOTING IT UP -->
