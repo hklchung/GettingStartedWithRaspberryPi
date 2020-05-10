@@ -37,6 +37,7 @@
   * [Install Software](#install-software)
   * [Remote Access to Raspberry Pi GUI](#remote-access-to-raspberry-pi-gui)
   * [Remote Access to Raspberry Pi via SSH](#remote-access-to-raspberry-pi-via-ssh)
+  * [Building Your First Prototype](#building-your-first-prototype)
 * [Contributing](#contributing)
 * [Contact](#contact)
 * [Known Issues](#known-issues)
@@ -161,6 +162,34 @@ ifconfig
 8. Once PuTTY has installed successfully, open PuTTY, paste your WiFi IP into the Host Name box and click Open
 9. Enter your username (pi) and password
 10. You should now be able to remote access your Raspberry Pi via SSH
+
+<!-- BUILDING YOUR FIRST PROTOTYPE -->
+### Building Your First Prototype
+<i>Note: The below steps assume you have set up remote access to your RPi</i>
+1. Boot up Raspberry Pi
+2. SSH into your RPi via PuTTY
+3. Install Cyberduck on your <b>PC</b> and use it to transfer <a href="https://github.com/hklchung/GettingStartedWithRaspberryPi/blob/master/Python/PWM.py"><strong>PWM.py</strong></a> from the /Python/ folder into your RPi. To transfer file, click on <i>Open Connection</i> -> select SFTP (SSH File Transfer Protocol) -> enter server, port, username and password details as per PuTTY login into RPi, then transfer the selected file.
+4. Set up your pins and wires as per below
+* GPIO018 (pin 12) <=====> one regular jumper wire <=====> F1 on breadboard 
+* G1 on breadboard <=====> LED anode (+)/LED cathode (-) <=====> F4 on breadboard
+* G4 on breadboard <=====> 330 Ohm resistor <=====> G10 on breadboard
+* H10 on breadboard <=====> on regular jumper wire <=====> GND (pin 6)
+5. Go back to PuTTY and execute the following command from the directory where the <b>PWM.py</b> file is located.
+```sh
+python3 PWM.py
+```
+6. You should be able to see brightness on the LED changes continuously. To end the program, simply press control + c on the PuTTY interface.
+
+This repo also provides 2 other python scripts that have been tested to function correctly given the right set up on your hardware.
+* BlinkLED.py allows user to control blinking of an LED through a pushbutton
+* LiveServer.py allows user to set the RPi as a server and returns the message "Got a request!" upon receving any commands from a client.
+
+Raspberry Pi 4B+ does not make it easy for the user to distinguish the pins from one another. Therefore it is highly recommended to purchase an extension board to assist with wiring. A side benefit of the extension board is that you will then not require any female jumper wires to connect your RPi. Nonetheless, below is a labelled layout of the pins on your RPi 4B+.
+
+<p align="center">
+    <img src="https://github.com/hklchung/GettingStartedWithRaspberryPi/blob/master/Image/raspberrypi4b_gpio.jpg?raw=true" height="400">
+  </p>
+</p>
   
 <!-- CONTRIBUTING -->
 
