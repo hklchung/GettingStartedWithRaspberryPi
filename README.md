@@ -223,7 +223,8 @@ Alternatively, if you are following this guide and found an error or missing inf
 <!-- KNOWN ISSUES -->
 
 ## Known Issues
----
+* If you are booting up the RPi with an HDMI connection to a monitor, the RPi may not boot up correctly with the GUI as the HDMI connection tends to be loose and the HDMI output on the RPi is known to be weak.
+* Please refrain from turning off your RPi by pulling out the power as this will lead to corruption of the SD card. You should always shutdown your RPi by clicking on shutdown if in GUI or by the command <i>sudo shutdown -h now</i>.
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
