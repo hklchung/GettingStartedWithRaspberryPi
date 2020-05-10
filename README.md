@@ -184,6 +184,24 @@ This repo also provides 2 other python scripts that have been tested to function
 * BlinkLED.py allows user to control blinking of an LED through a pushbutton
 * LiveServer.py allows user to set the RPi as a server and returns the message "Got a request!" upon receving any commands from a client.
 
+To create and edit a Python script directly in RPi, you can:
+1. Install vim (this helps your visualise your Python commands)
+```sh
+sudo apt-get install vim
+```
+2. Create your Python script
+```sh
+touch test.py
+```
+3. Edit your Python script
+```sh
+vi test.py
+```
+4. Run your Python script
+```sh
+python3 test.py
+```
+
 Raspberry Pi 4B+ does not make it easy for the user to distinguish the pins from one another. Therefore it is highly recommended to purchase an extension board to assist with wiring. A side benefit of the extension board is that you will then not require any female jumper wires to connect your RPi. Nonetheless, below is a labelled layout of the pins on your RPi 4B+.
 
 <p align="center">
