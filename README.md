@@ -34,6 +34,9 @@
   * [Parts](#parts)
   * [Booting it up](#booting-it-up)
 * [Usage](#usage)
+  * [Install Software](#install-software)
+  * [Remote Access to Raspberry Pi GUI](#remote-access-to-raspberry-pi-gui)
+  * [Remote Access to Raspberry Pi via SSH](#remote-access-to-raspberry-pi-via-ssh)
 * [Contributing](#contributing)
 * [Contact](#contact)
 * [Known Issues](#known-issues)
@@ -113,7 +116,9 @@ sudo shutdown now
 <!-- USAGE -->
 
 ## Usage
-You can use the Raspberry Pi as you would with any other computer. To download softwares onto your Raspberry Pi, open up Termianl from the start up menu and run the following command. (Scrot is a screen capturing application)
+<!-- INSTALL SOFTWARE -->
+### Install Software
+You can use the Raspberry Pi as you would with any other computer. To download softwares onto your Raspberry Pi, open up Terminal from the start up menu and run the following command. (Scrot is a screen capturing application)
 ```sh
 sudo apt-get install scrot
 ```
@@ -122,6 +127,7 @@ To see a list of softwares installed, run:
 apt list --installed
 ```
 
+<!-- REMOTE ACCESS TO RASPBERRY PI GUI -->
 ### Remote Access to Raspberry Pi GUI
 1. Boot up Raspberry Pi
 2. Connect the Raspberry Pi to your WiFi network
@@ -136,7 +142,8 @@ sudo raspi-config
 8. Once VNCViewer has installed successfully, open VNCViewer and paste your WiFi IP into the search bar
 9. You should now be able to remote access your Raspberry Pi GUI
 
-### Remote Access to Raspberry Pi via SSH (text interface)
+<!-- REMOTE ACCESS TO RASPBERRY PI VIA SSH -->
+### Remote Access to Raspberry Pi via SSH
 1. Boot up Raspberry Pi
 2. Connect the Raspberry Pi to your WiFi network
 3. Open Termianl and run the below
